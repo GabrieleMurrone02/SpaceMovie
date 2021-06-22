@@ -49,7 +49,7 @@
             @foreach ($cart as $item)
                 <div class="container mt-20 mx-auto p-4 md:p-0 mb-20">
                 <div class="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
-                    <div class="bg-cover bg-bottom border w-full md:w-1/3  h-80 relative" style="background-image:url(Foto/film/{{ $item->idFilm }}.jpg)">
+                    <div class="bg-cover bg-bottom border w-full md:w-1/3  h-80 relative" style="background-image:url(Foto/film/{{ $item->idFilm }}.jpeg)">
                     <div class="absolute text-xl">
                         <i class="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
                     </div>

@@ -39,7 +39,7 @@
         </div>
         <div class="sliderAx h-auto">
           <div id="slider-1" class="container mx-auto">
-            <div class="bg-cover bg-center  h-auto text-white py-24 px-10 object-fill" style="background-image: url(Foto/film/{{ $data[0]->idFilm }}-2.jpg)">
+            <div class="bg-cover bg-center  h-auto text-white py-24 px-10 object-fill" style="background-image: url(Foto/film/{{ $data[0]->idFilm }}-2.jpeg)">
               <div class="md:w-1/2">
                 <p class="font-bold text-sm uppercase">{{ $data[0]->genere }}</p>
                 <p class="text-3xl font-bold">{{ $data[0]->titolo }}</p>
@@ -51,7 +51,7 @@
           </div>
 
           <div id="slider-2" class="container mx-auto">
-            <div class="bg-cover bg-top  h-auto text-white py-24 px-10 object-fill" style="background-image: url(Foto/film/{{ $data[1]->idFilm }}-2.jpg)">
+            <div class="bg-cover bg-top  h-auto text-white py-24 px-10 object-fill" style="background-image: url(Foto/film/{{ $data[1]->idFilm }}-2.jpeg)">
               <p class="font-bold text-sm uppercase">{{ $data[1]->genere }}</p>
               <p class="text-3xl font-bold">{{ $data[1]->titolo }}</p>
               <p class="text-xl mb-10 leading-none">{{ $data[1]->regista }}</p>
@@ -96,7 +96,7 @@
           @foreach ($data as $item)
             <div class="container mt-20 mx-auto p-4 md:p-0 mb-20">
                 <div class="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
-                    <div class="bg-cover bg-center w-full h-96 md:w-1/3 relative" style="background-image:url(Foto/film/{{ $item->idFilm }}.jpg)">
+                    <div class="bg-cover bg-center w-full h-96 md:w-1/3 relative" style="background-image:url(Foto/film/{{ $item->idFilm }}.jpeg)">
                     <div class="absolute text-xl">
                         <i class="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
                     </div>

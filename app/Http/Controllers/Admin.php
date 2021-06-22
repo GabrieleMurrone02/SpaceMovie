@@ -59,6 +59,7 @@ class Admin extends Controller
             $name = $id . '.jpeg';
             $path = $img->move(public_path('Foto/film'), $name);
         }
+        
         if(!is_null($req->file('copertina'))){
             $id = Film::max('idFilm');
             $img = $req->file('copertina');
